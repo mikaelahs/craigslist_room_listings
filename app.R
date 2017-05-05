@@ -6,7 +6,6 @@ library(rgdal)
 library(dplyr)
 library(reshape2)
 library(stringi)
-library(RColorBrewer)
 source("shape.R")
 source("map.R")
 source("multiple.R")
@@ -14,10 +13,6 @@ source("scatter.R")
 
 options(warn=-1)
 
-# generating colors for the scatterplot
-# qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
-# col_vector = unlist(mapply(brewer.pal, qual_col_pals$maxcolors, rownames(qual_col_pals)))
-# colors <- sample(col_vector, 27)
 colors = c("#8dd3c7","#ffffb3","#bebada","#fb8072","#80b1d3","#fdb462","#b3de69","#fccde5","#d9d9d9")
 
 # format data for each plot
@@ -214,7 +209,7 @@ server <- function(input, output, session) {
         scale_fill_manual(values=c("#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3"))
       g2
     }
-  },height = 700, width = 900)
+  },height = 600, width = 900)
   
 }
 
