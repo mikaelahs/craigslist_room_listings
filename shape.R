@@ -98,7 +98,7 @@ format_shape <- function(file) {
   df <- aggregate(map[, c(3,6)], list(map$shape), function(x) mean(x,na.rm=T))
   names(df) <- c("CITY", "avg_price", "avg_size")
   
-  map <- readOGR("/bayarea_cities", "bay_area_cities")
+  map <- readOGR(".", "bay_area_cities")
   map_wgs84 <- spTransform(map, CRS("+proj=longlat +datum=WGS84"))
   area <- map_wgs84
   
