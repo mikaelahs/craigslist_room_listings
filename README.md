@@ -1,4 +1,4 @@
-Project Prototype: Visualizing Craigslist Room Listings in the East Bay
+Visualizing Craigslist Room Listings Prototype:  in the East Bay
 ==============================
 
 | **Name**  | Mikaela Hoffman-Stapleton, Arda Aysu  |
