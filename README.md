@@ -1,3 +1,5 @@
+This was the final project for a Data and Information Visualization class that was part of the MSAN program. This project was completed by myself and another MSAN student.
+
 Visualizing Craigslist Room Listings in the East Bay
 ==============================
 
