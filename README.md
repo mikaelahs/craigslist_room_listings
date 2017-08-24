@@ -26,7 +26,7 @@ To run this code, please enter the following commands in R:
 
 ```
 library(shiny)
-shiny::runGitHub("usfviz/MikArda-final", subdir = "")
+shiny::runGitHub("mikaelahs/craigslist_room_listings", subdir = "")
 ```
 
 This will start the `shiny` app. See below for details on how to interact with the visualization.
